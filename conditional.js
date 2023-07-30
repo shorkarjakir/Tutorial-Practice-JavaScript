@@ -40,9 +40,25 @@ var cars = 0;
 // else {
 //   console.log('hobe na')
 // }
-if (isGraduated == true && salary > 25000 && cars >= 1) {
-  console.log('Biye hobe')
+
+
+// if (isGraduated == true && salary > 25000 && cars >= 1) {
+//   console.log('Biye hobe')
+// }
+// else {
+//   console.log('biye hobe na')
+// }
+
+// if (isGraduated === true || salary > 20000) {
+//   console.log('TAHLE HOBE')
+// }
+// else {
+//   console.log('Hobe na totally')
+// }
+
+if ((isGraduated === true && salary > 40000) || cars >= 1) {
+  console.log('hobe')
 }
 else {
-  console.log('biye hobe na')
+  console.log('hobe na')
 }
